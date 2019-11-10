@@ -1,3 +1,3 @@
-FROM jupyter/minimal-notebook
-RUN conda install -c anaconda beautifulsoup4
-RUN conda install -c anaconda pandas
+FROM jupyter/base-notebook
+RUN conda install -c anaconda numpy
+
